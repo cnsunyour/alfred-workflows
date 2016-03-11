@@ -1,0 +1,10 @@
+#+TITLE: Alfred Workflows
+#+AUTHOR: cnsunyour
+#+STARTUP: showall
+#+STARTUP: hidestar
+    Some alfred workflows by myself.
+* Weather by Wunderground
+ 这是我写的第一个 alfred workflow 程序，调用 wunderground 网站的 api，显示天气信息，有如下特点：
+1. 不指定地点，自动按 IP 显示当前城市的天气；
+2. 在列表中按回车，会跳转到当前城市的 wunderground 详情页面，显示详细天气信息；
+3. wunderground 的 api 在匹配到多个城市时，不显示天气信息，而是返回城市列表，本程序会对列表的第一个城市重新请求天气信息。
