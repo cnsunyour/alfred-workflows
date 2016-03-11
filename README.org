@@ -9,4 +9,5 @@
 2. 在列表中按回车，会跳转到当前城市的 wunderground 详情页面，显示详细天气信息；
 3. wunderground 的 api 在匹配到多个城市时，不显示天气信息，而是返回城市列表，本程序会对列表的第一个城市重新请求天气信息。
 注意：由于 wunderground 的 api 有调用次数限制，请自行申请 apikey 并修改使用。
+
 请点击下载：[[https://github.com/cnsunyour/alfred-workflows/blob/master/weather-by-wunderground.alfredworkflow?raw=true][下载地址]]
