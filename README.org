@@ -10,6 +10,7 @@
 1. 不指定地点，自动按 IP 显示当前城市的天气；
 2. 在列表中按回车，会跳转到当前城市的 wunderground 详情页面，显示详细天气信息；
 3. wunderground 的 api 在匹配到多个城市时，不显示天气信息，而是返回城市列表，本程序会对列表的第一个城市重新请求天气信息。
+4. 支持多城市查询，可利用任意符号进行分隔，理论上支持城市数量无限，但每增加一个城市就会多一次请求，相应时间也会增加。
 注意：由于 wunderground 的 api 有调用次数限制，请自行申请 apikey 并修改使用。
 
 请点击下载：[[https://github.com/cnsunyour/alfred-workflows/blob/master/weather-by-wunderground.alfredworkflow?raw=true][Weather by Wunderground]]
@@ -18,7 +19,7 @@
 利用百度 API 显示天气预报，除了能显示一般信息外，还能显示 PM2.5，各项指数等。特点如下：
 1. 不指定地点，自动按 IP 显示当前城市的天气，也是利用百度 API 调用确认位置；
 2. 没有跳转，因为没有对应的详情页面，所以不做跳转；
-3. 可以输入多个城市，利用任意符号进行分隔，会显示所有城市的预报信息；
+3. 可以输入多个城市，利用任意符号进行分隔，会显示所有城市的预报信息，最多支持 15 个城市；
 4. 百度天气的 API 只有国内城市，想要看其它国家城市的天气信息请用 Weather by Wunderground。
 
 请点击下载：[[https://github.com/cnsunyour/alfred-workflows/blob/master/weather-by-baidu.alfredworkflow?raw=true][Weather by Baidu]]
