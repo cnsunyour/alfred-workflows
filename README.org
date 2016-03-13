@@ -5,7 +5,6 @@
 
     Some alfred workflows by myself.
 
-#+NAME: Weather by Wunderground
 * Weather by Wunderground
  这是我写的第一个 alfred workflow 程序，调用 wunderground 网站的 api，显示天气信息，有如下特点：
 1. 不指定地点，自动按 IP 显示当前城市的天气；
